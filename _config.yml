@@ -85,7 +85,6 @@ author:
   bio              : "Your biography for the left-hand sidebar"
   location         : "Seattle"
   employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?hl=en&user=28p_eLYAAAAJ"
   email            :
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
