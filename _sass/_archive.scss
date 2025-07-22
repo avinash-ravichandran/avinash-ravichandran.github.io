@@ -1,3 +1,39 @@
+.publication-card {
+  background-color: #fff;
+  border: 1px solid $border-color;
+  border-radius: $border-radius;
+  padding: 1.5em;
+  margin-bottom: 1.5em;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  transition: box-shadow 0.2s ease-in-out;
+
+  .archive__item-title {
+    margin-top: 0;
+  }
+
+  &:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+}
+
+.publication-authors {
+  font-size: 0.9em;
+  color: $gray;
+}
+
+.publication-venue {
+  font-size: 0.9em;
+  color: $gray;
+}
+
+.publication-links {
+  margin-top: 1em;
+
+  .btn {
+    margin-right: 0.5em;
+  }
+}
+
 /* ==========================================================================
    ARCHIVE
    ========================================================================== */
@@ -52,7 +88,7 @@
 .page__content {
 
   .archive__item-title {
-    margin-top: 1em;
+    margin-top: 0;
     border-bottom: none;
   }
 }

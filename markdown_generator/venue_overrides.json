@@ -1,0 +1,64 @@
+{
+  "venue_overrides": {
+    "Revisiting contrastive learning for few-shot classification": {
+      "venue": "arXiv preprint",
+      "pub_type": "preprint"
+    },
+    "A baseline for few-shot image classiﬁcation": {
+      "venue": "ICLR 2020",
+      "pub_type": "conference",
+      "paper_url": "https://openreview.net/forum?id=rylXBkrYDS",
+      "citations": 782
+    },
+    "Superfloxels: A mid-level representation for video sequences": {
+      "venue": "ECCV 2012 workshops",
+      "pub_type": "conference"
+    },
+    "Group action induced distances for averaging and clustering Linear Dynamical Systems with applications to the analysis of dynamic scenes": {
+      "venue": "CVPR 2012",
+      "pub_type": "conference"
+    },
+    "A closed form solution to robust subspace estimation and clustering": {
+      "venue": "CVPR 2011",
+      "pub_type": "conference"
+    },
+    "View-invariant dynamic texture recognition using a bag of dynamical systems": {
+      "venue": "CVPR 2009",
+      "pub_type": "conference"
+    },
+    "Video Registration Using Dynamic Textures": {
+      "venue": "ECCV 2008",
+      "pub_type": "conference"
+    },
+    "Segmenting a beating heart using polysegment and spatial GPCA": {
+      "venue": "ISBI 2006",
+      "pub_type": "conference"
+    },
+    "Optical flow estimation & segmentation of multiple moving dynamic textures": {
+      "venue": "CVPR 2005",
+      "pub_type": "conference"
+    }
+  },
+  "patent_venue_override": {
+    "remove_unknown_venue": true,
+    "comment": "All patents should have empty venue field instead of 'Unknown Venue'"
+  },
+  "global_patterns": {
+    "conference_aliases": {
+      "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition": "CVPR",
+      "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition": "CVPR",
+      "Proceedings of the IEEE/CVF international conference on computer vision": "ICCV",
+      "Proceedings of the IEEE/CVF International Conference on Computer Vision": "ICCV",
+      "Advances in Neural Information Processing Systems": "NeurIPS",
+      "Springer Berlin Heidelberg": "ECCV"
+    },
+    "publisher_to_venue_mapping": {
+      "Springer Berlin Heidelberg + computer vision + 2020": "ECCV 2020",
+      "Springer Berlin Heidelberg + computer vision + 2018": "ECCV 2018",
+      "Springer Berlin Heidelberg + computer vision + 2016": "ECCV 2016",
+      "Springer Berlin Heidelberg + computer vision + 2014": "ECCV 2014",
+      "Springer Berlin Heidelberg + computer vision + 2012": "ECCV 2012",
+      "Springer Berlin Heidelberg + computer vision + 2010": "ECCV 2010"
+    }
+  }
+}

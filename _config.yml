@@ -81,8 +81,8 @@ analytics:
 # Site Author
 author:
   name             : "Avinash Ravichandran"
-  avatar           : "profile.png"
-  bio              : "Your biography for the left-hand sidebar"
+  avatar           : "avinash-headshot.jpg"
+  bio              : "Engineer by instinct. Scientist by training. Translating cutting-edge research into production."
   location         : "Seattle"
   employer         :
   googlescholar    : "https://scholar.google.com/citations?hl=en&user=28p_eLYAAAAJ"

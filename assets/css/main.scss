@@ -39,3 +39,101 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+
+/* Compact Publication Display */
+.publication-compact {
+  line-height: 1.4;
+  margin-bottom: 0.5em;
+  
+  .venue {
+    font-weight: 500;
+    color: #494e52;
+  }
+  
+  .authors {
+    font-size: 0.9em;
+    color: #666;
+  }
+  
+  .download a {
+    color: #52adc8;
+    text-decoration: none;
+    font-size: 0.9em;
+    
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  
+  .citations {
+    font-size: 0.85em;
+    color: #888;
+    font-style: italic;
+  }
+}
+
+/* Font Consistency Overrides - Excluding Icons */
+body, html {
+  font-family: "Inter", -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif !important;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Inter", -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif !important;
+  font-weight: 600 !important;
+}
+
+/* Text elements - but exclude icons */
+p:not(.fas):not(.fab):not(.far):not(.fa), 
+li:not(.fas):not(.fab):not(.far):not(.fa), 
+div:not(.fas):not(.fab):not(.far):not(.fa), 
+span:not(.fas):not(.fab):not(.far):not(.fa), 
+a:not(.fas):not(.fab):not(.far):not(.fa) {
+  font-family: "Inter", -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif !important;
+}
+
+/* Navigation fonts - preserve icons */
+.masthead__menu-item, 
+.greedy-nav a,
+.site-nav a {
+  font-family: "Inter", -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif !important;
+  font-weight: 500 !important;
+}
+
+/* Sidebar fonts - preserve icons */
+.author__name,
+.author__bio {
+  font-family: "Inter", -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif !important;
+}
+
+.author__urls-wrapper a {
+  font-family: "Inter", -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif !important;
+}
+
+/* Preserve icon fonts */
+.fas, .fab, .far, .fa, 
+[class*="fa-"], 
+.author__urls-wrapper .fas,
+.author__urls-wrapper .fab,
+.author__urls-wrapper .far,
+.author__urls-wrapper [class*="fa-"],
+.author__urls-wrapper i[class*="fa-"] {
+  font-family: "Font Awesome 5 Free", "Font Awesome 5 Brands", "FontAwesome" !important;
+}
+
+/* More circular avatar */
+.author__avatar img {
+  border-radius: 50% !important;
+  width: 150px !important;
+  height: 150px !important;
+  object-fit: cover !important;
+}
+
+/* Archive and post fonts */
+.archive__item-title,
+.archive__item-excerpt,
+.page__title,
+.page__content {
+  font-family: "Inter", -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif !important;
+}
