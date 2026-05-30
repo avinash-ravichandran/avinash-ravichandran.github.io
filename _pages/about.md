@@ -1,11 +1,8 @@
 ---
-permalink: /
-title: "Hello!"
+permalink: /about/
+title: "About"
 excerpt: "About me"
 author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
 ---
 
 I'm a machine learning scientist and systems architect working at the intersection of cutting-edge AI research and real-world deployment. Currently, I serve as Chief Architect of Machine Learning at SambaNova Systems, where I lead efforts in multimodal AI—for differentiating our hardware.
